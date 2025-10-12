@@ -1,0 +1,35 @@
+p {
+   font-family: Roboto;
+   margin-top: 0px;
+   margin-bottom: 0px;
+  }
+
+  .title{
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: left;
+    width: 260px;
+    line-height: 25px;
+  }
+
+  .title1 {
+    font-size: 24px;
+    color: white;
+    margin-top: 5px;
+    background-color: red;
+    padding-right: 0px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 0px;
+    width: 280px;
+  }
+
+  .great {
+    color: rgb(0, 200, 50);
+}
+  .great:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

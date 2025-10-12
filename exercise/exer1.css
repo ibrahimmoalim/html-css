@@ -1,0 +1,79 @@
+.yes {
+   display: inline-block;
+   vertical-align: 25px;
+}
+ .no {
+   vertical-align: 25px;
+   display: inline-block;
+}
+ .par {
+   width: 250px;
+   display: inline-block;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+ .go {
+   width: 350px;
+   margin-top: 200px;
+   margin-left: 680px;
+   margin-bottom: 20px;
+   display: block;
+}
+  .input {
+    display: block;
+    border: none;
+    border-radius: 40px;
+    margin-left: 500px;
+    width: 700px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+    font-size: 24px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+  .input1, .input2 {
+    display: inline-block;
+    vertical-align: -130px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 170px;
+    border-style: solid;
+    border-color: rgb(200, 200, 200);
+}
+  .input3 {
+    border-radius: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    width: 372px;
+    font-size: 20px;
+    display: block;
+    border-style: solid;
+    margin-top: 8px;
+    border-color: rgb(200, 200, 200);
+}
+  .sign {
+    border-radius: 10px;
+    width: 399px;
+    font-size: 20px;
+    padding-bottom: 18px;
+    padding-top: 18px;
+    margin-top: 8px;
+    background-color: rgb(50, 100, 255);
+    color: white;
+    border: none;
+    transition-opacity: 0.2s;
+} 
+  .sign:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+  .sign:active {
+    opacity: 0.7;
+}

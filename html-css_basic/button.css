@@ -1,0 +1,61 @@
+.click {
+      background-color: white;
+      color: black;
+      border-color: black;
+      border-style: solid;
+      border-radius: 5px;
+      padding-left: 16px;
+      padding-right: 16px;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      cursor: pointer;
+      margin-right: 110px;
+      margin-left: 110px;
+      transition: opacity 0.2s, background-color 0.2s, color 0.2s;
+}
+    .click:hover {
+       background-color: black;
+       color: white;
+}
+    .click:active {
+       opacity: 0.6;
+}
+.pasta {
+      font-size: 15;
+      background-color: rgb(200,10,10);
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding-left: 16px;
+      padding-right: 16px;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      cursor: pointer;
+      margin-right: 110px;
+      transition: opacity 0.2s,
+}
+     .pasta:hover {
+       opacity: 0.8;
+}
+     .pasta:active {
+       opacity: 0.6;
+}
+
+    .ibra {
+      font-size: 15;
+      background-color: rgb(5,120,200);
+      color: white;
+      border-color: rgb(5,120,200);
+      border-radius: 20px;
+      border-style: solid;
+      padding-left: 16px;
+      padding-right: 16px;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      cursor: pointer;
+      margin-right: 110px;
+      transition: box-shadow 0.2s;
+}
+     .ibra:hover {
+       box-shadow: 0px 0px 20px rgba(5,120,200,0.4);
+}
