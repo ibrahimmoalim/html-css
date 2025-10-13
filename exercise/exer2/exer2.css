@@ -1,0 +1,140 @@
+ input:active {
+  border: none;
+  border-color: white;
+}
+ .square {
+  background-color: red;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin-right: 10px;
+}
+ .circle { 
+  background-color: green;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  display: inline-block;
+}
+ .service {
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  border-width: 1px;
+  width: 300px;
+  margin-top: 40px;
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+ .but {
+  font-size: 14px;
+  margin-right: 2px;
+}
+ .tube {
+  background-color: rgb(50, 50, 50);
+  width: 360px;
+  margin-top: 50px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-right: 15px;
+}
+ p {
+   font-family: Arial;
+   
+}
+ .par {
+   color: white;
+   font-weight: bold;
+   font-size: 24px;
+}
+ .par1 {
+   color: rgb(220, 220, 220);
+}
+ 
+ .x {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  margin-top: 50px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+ .img-circle {
+  border-radius: 25px;
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+ .inp {
+  display: inline-block;
+  color: rgb(120, 120, 120);
+  vertical-align: middle;
+  border: none;
+  font-size: 16px;
+  width: 150px;
+  margin-right: 100px;
+}
+ .but1 {
+  color: white;
+  background-color: rgb(100, 180, 255);
+  border-radius: 25px;
+  border: none;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  display: inline-block;
+}
+
+ .facebook {
+  width: 200px;
+  margin-top: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  margin-right: 10px;
+}
+ .img-square {
+  width: 200px;
+  height: 200px;
+  margin-right: 8px;
+  object-fit: cover;
+}
+ .par3 {
+   font-weight: bold;
+   margin-top: 10px;
+   margin-left: 10px;
+   margin-bottom: 8px;
+}
+ .par4 {
+   color: rgb(100, 100, 100);
+   margin-left: 10px;
+   margin-bottom: 10px;
+   margin-top: 0px;
+}
+ .but2 {
+  color: white;
+  background-color: rgb(70, 140, 255);
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: 8px;
+  margin-left: 10px;
+}
+ button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+ button:active {
+  opacity: 0.5;
+}

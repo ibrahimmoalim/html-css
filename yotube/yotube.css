@@ -1,7 +1,17 @@
 .thumb {
   width: 300px;
+  display: block;
 }
 .search {
+  display: block;
   font-size: 20px;
-  margin-left: 12px;
+}
+ .par {
+  font-family: Roboto;
+}
+ .video1 {
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 15px;
 }
