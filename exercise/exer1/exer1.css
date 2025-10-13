@@ -1,3 +1,12 @@
+p {
+ font-family:Arial;
+}
+button {
+  font-family:Arial;
+}
+input {
+  font-family:Arial;
+}
 .yes {
    display: inline-block;
    vertical-align: 25px;
@@ -12,18 +21,19 @@
    margin-top: 0px;
    margin-bottom: 0px;
 }
+ div {
+  width: 700px;
+  text-align: center;
+  margin-left: 540px;
+  margin-top: 260px;
+}
  .go {
    width: 350px;
-   margin-top: 200px;
-   margin-left: 680px;
-   margin-bottom: 20px;
-   display: block;
+   margin-bottom: 15px;
 }
   .input {
-    display: block;
     border: none;
     border-radius: 40px;
-    margin-left: 500px;
     width: 700px;
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
     font-size: 24px;
@@ -32,6 +42,19 @@
     padding-bottom: 16px;
     padding-top: 16px;
 }
+  .but {
+    display: inline-block;
+    background-color: rgb(240, 240, 240);
+    border: none;
+    font-size: 24px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
   .input1, .input2 {
     display: inline-block;
     vertical-align: -130px;
@@ -70,10 +93,10 @@
     border: none;
     transition-opacity: 0.2s;
 } 
-  .sign:hover {
+  button:hover {
     cursor: pointer;
     opacity: 0.9;
 }
-  .sign:active {
+  button:active {
     opacity: 0.7;
 }

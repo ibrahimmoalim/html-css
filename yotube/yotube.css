@@ -1,17 +1,62 @@
 .thumb {
   width: 300px;
   display: block;
+  margin-bottom: 12px;
+  border-radius: 12px;
 }
 .search {
   display: block;
   font-size: 20px;
+  border-radius: 20px;
 }
- .par {
-  font-family: Roboto;
+ p {
+  font-family: Roboto, Arial;
 }
- .video1 {
+.video1 {
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 13px;
+  height: 270px;
+}
+.pfp1 {
+  width: 50px;
+  display: inline-block;
+  vertical-align: top;
+}
+.title1 {
+  display: inline-block;
+  width:230px;
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
+.supa {
+  display: inline-block;
+  width: 100%;
+  border-radius: 25px;
+}
+
+.video2 {
   width: 300px;
   display: inline-block;
   vertical-align: top;
   margin-right: 15px;
+  height: 270px;
+}
+.par {
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 5px;
+}
+.author, .stats {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.author {
+  margin-bottom: 5px;
 }
