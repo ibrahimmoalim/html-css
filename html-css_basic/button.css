@@ -59,3 +59,7 @@
      .ibra:hover {
        box-shadow: 0px 0px 20px rgba(5,120,200,0.4);
 }
+.ibra:active {
+       opacity: 0.6;
+}
+

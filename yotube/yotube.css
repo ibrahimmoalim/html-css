@@ -1,8 +1,7 @@
 .thumb {
-  width: 300px;
-  display: block;
   margin-bottom: 12px;
   border-radius: 12px;
+  width: 100%;
 }
 .search {
   display: block;
@@ -12,24 +11,13 @@
  p {
   font-family: Roboto, Arial;
 }
-.video1 {
-  width: 300px;
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 13px;
-  height: 270px;
+.grid1 {
+  display: grid;
+  grid-template-columns: 50px 1fr;
 }
 .pfp1 {
   width: 50px;
-  display: inline-block;
   vertical-align: top;
-}
-.title1 {
-  display: inline-block;
-  width:230px;
-  margin-top: 0px;
-  margin-left: 10px;
-  margin-bottom: 0px;
 }
 .supa {
   display: inline-block;
@@ -38,7 +26,6 @@
 }
 
 .video2 {
-  width: 300px;
   display: inline-block;
   vertical-align: top;
   margin-right: 15px;
@@ -59,4 +46,13 @@
 }
 .author {
   margin-bottom: 5px;
+}
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap:16px;
+  row-gap: 40px;
+}
+.title1 {
+  margin-left: 8px;
 }
