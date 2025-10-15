@@ -92,19 +92,25 @@
   display: inline-block;
 }
 
- .facebook {
-  width: 200px;
+.grid {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  column-gap: 20px;
+}
+.grid-profile {
+  display: grid;
+  grid-template-columns: 200px;
   margin-top: 50px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  display: inline-block;
-  margin-right: 10px;
-}
+  width: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+} 
  .par3 {
    font-weight: bold;
    margin-top: 10px;
    margin-left: 10px;
    margin-bottom: 8px;
-   display: inline-block;
 }
  .par4 {
    color: rgb(100, 100, 100);
@@ -134,24 +140,21 @@
  button:active {
   opacity: 0.5;
 }
-.img {
-  width: 200px;
-  height: 200px;
-  display: inline-block;
-}
 .pfp {
   width: 50px;
-  display: inline-block;
   height: 50px;
   border-radius: 25px;
   margin-left: 8px;
 }
-.row3 {
- display: inline-block;
- vertical-align: middle;
- margin-bottom: 8px;
+.grid2 {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  align-items: center;
+  column-gap: 10px;
+  margin-bottom: 8px;
 }
-.p4 {
-  display: inline-block;
-  vertical-align: middle;
+.img {
+  width: 200px;
+  height: 255px;
+  object-fit: cover;
 }

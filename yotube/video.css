@@ -3,14 +3,8 @@
   border-radius: 12px;
   width: 100%;
 }
-.search {
-  display: block;
-  font-size: 20px;
-  border-radius: 20px;
-}
- p {
-  font-family: Roboto, Arial;
-}
+.
+
 .grid1 {
   display: grid;
   grid-template-columns: 50px 1fr;

@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 55px;
+  justify-content: space-between;
+  border-color: grey;
+  border-width: 1px;
+  border-style: solid;
+}
+.left-section {
+  background-color: lightblue;
+  width: 200px;  
+}
+search {
+  font-size: 20px;
+  border-radius: 20px;
+}
+.middle-section {
+  background-color: rgb(151, 218, 145);
+  margin-left: 70px;
+  margin-right: 35px;
+  flex: 1;
+  max-width: 500px;  
+}
+.right-section {
+  background-color: rgb(138, 124, 202);
+  width: 200px;  
+}

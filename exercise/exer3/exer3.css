@@ -1,0 +1,130 @@
+div {
+  font-family: Arial;
+}
+button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+button:active {
+  opacity: 0.4
+}
+.container {
+  border-color: rgb(173, 169, 169);
+  border-style: solid;
+  border-width: 1px;
+  width: 300px;
+  border-radius: 6px;
+  margin-bottom: 100px;
+}
+.flex1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  align-items: center;
+}
+.notifs {
+  background-color: rgb(50, 110, 255);
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  padding-bottom: 2px;
+  padding-left: 10px;
+  padding-top: 2px;
+  padding-right: 10px;
+  font-size: 14px;
+}
+
+
+.flex2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  width: 500px;
+  align-items: center;
+}
+.img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-right: 15px;
+  object-fit: cover;
+}
+.but {
+  background-color: rgb(20, 150, 255);
+  border-radius: 10px;
+  font-size: 18px;
+  border: none;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-right: 10px;
+}
+.info {
+  width: 255px;
+}
+p {
+  margin: 0;
+}
+.p1 {
+  font-weight: bold;
+  font-size:16px;
+}
+.p2 {
+  color: grey;
+  font-size:16px;
+}
+.p3 {
+  color: grey;
+  font-size:14px;
+}
+
+
+.flex3 {
+  display: flex;
+  flex-direction: row;
+  background-color:rgb(131, 73, 197);
+  align-items: center;
+  height: 60px;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.right {
+  color: white;
+  width: 70px;
+  margin-left: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.right:active {
+  opacity: 0.6;
+}
+.inp {
+  border-radius: 20px;
+  border: none;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-top: 10px;
+  font-size: 16px;
+  width: 500px;
+}
+.left {
+  width: 110px;
+}
+.but1 {
+  font-size: 16px;
+  background-color: rgb(131, 73, 197);
+  color: white;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  margin-right: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-right: 10px;
+  font-weight: bold;
+}
