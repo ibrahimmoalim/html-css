@@ -1,0 +1,136 @@
+div {
+  font-family: Arial;
+}
+.flex1 {
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+}
+.column1 {
+  background-color: lightblue;
+  width: 100px;
+}
+.column2 {
+  background-color: lightgreen;
+  width: 200px;
+}
+.flex3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.row2 {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  border-radius: 5px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  width: 430px;
+  margin-top: 100px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 15px;
+}
+.inbox-row {
+  color: grey;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.flex4 {
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+  margin-right: 10px;
+
+}
+.img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+}
+.info {
+  flex: 1;
+}
+.flex5 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 8px;
+  padding-bottom: 2px;
+}
+.name {
+  font-weight: bold;
+  font-size: 16px;
+}
+.time {
+  color: grey;
+  font-size: 14px;
+}
+.subject {
+  width: 150px;
+  margin-left: 8px;
+  font-weight: bold;
+  font-size: 14px;
+  padding-bottom: 2px;
+}
+.text {
+  margin-left: 8px;
+  color: grey;
+  font-size: 14px;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  width: 410px;
+}
+.img1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+}
+.name1 {
+  margin-bottom: 4px;
+  display: flex;
+}
+.author {
+  font-weight: bold;
+  margin-right: 5px;
+}
+.author-handler {
+  color: rgb(112, 112, 112);
+}
+.text-box {
+  margin-left: 8px;
+}
+.link {
+  display: flex;
+  border-radius: 10px;
+  border-color: rgb(218, 218, 218);
+  border-width: 1px;
+  margin-top: 16px;
+  border-style: solid;
+  overflow: hidden;
+}
+.grey {
+  background-color: rgb(220, 220, 220);
+  width: 100px;
+  height: 100px;
+}
+.link-text {
+  flex: 1;
+  padding-left: 10px;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  padding-right: 20px;
+}
+.tube {
+  margin-bottom: 8px;
+  color: rgb(75, 75, 75);
+}

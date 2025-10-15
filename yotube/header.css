@@ -1,28 +1,104 @@
+button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+button:active {
+  opacity: 0.5;
+}
 .header {
   display: flex;
   flex-direction: row;
   height: 55px;
   justify-content: space-between;
-  border-color: grey;
-  border-width: 1px;
-  border-style: solid;
+  align-items: center;
 }
 .left-section {
-  background-color: lightblue;
-  width: 200px;  
+  display: flex;
+  align-items: center;
 }
-search {
-  font-size: 20px;
-  border-radius: 20px;
+.menu {
+  height: 24px;
+  margin-left: 24px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.logo {
+  height: 20px;
+  cursor: pointer;
+}    
+.search {
+  font-size: 16px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  flex: 1;
+  width: 0;
+  height: 36px;
+  padding-left: 10px;
+  font-family: Roboto, Arial;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(192, 192, 192);
+  box-shadow: inset 1px 2px 0.5px rgba(0, 0, 0, 0.1)
+}
+.search::placeholder {
+  font-family: Roboto, Arial;
+  font-size: 16px;
 }
 .middle-section {
-  background-color: rgb(151, 218, 145);
   margin-left: 70px;
   margin-right: 35px;
   flex: 1;
-  max-width: 500px;  
+  max-width: 700px;
+  align-items: center;
+  display: flex;  
+}
+.search-button {
+  width: 60px;
+  height: 40px;
+  background-color: rgb(240, 240, 240);
+  border-radius: 1px;
+  border-color: rgb(192, 192, 192);
+  border-style: solid;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-left: none;
+  box-shadow: inset -1px 2px 3px rgba(0, 0, 0, 0.08) 
+}
+.voice {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin-left: 15px;
+  border: none;
+  background-color: rgb(236, 235, 235);
+}
+.search-icon {
+  height: 25px;
+  margin-top: 3px;
+}
+.voice-icon {
+  margin-top: 3px;
+  height: 25px;
 }
 .right-section {
-  background-color: rgb(138, 124, 202);
-  width: 200px;  
+  width: 180px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+  flex-shrink: 0;  
+}
+.upload {
+  height: 24px;
+}
+.apps {
+  height: 24px;
+}
+.notifs {
+  height: 24px;
+}
+.profile {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
 }
