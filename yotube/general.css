@@ -1,11 +1,17 @@
  p {
-  font-family: Roboto, Arial;
   cursor: pointer;
 }
  body {
   margin: 8px;
   margin-top: 0;
+  padding-top: 80px;
+  height: 2000px;
+  padding-left: 80px;
+  background-color: rgb(250, 250, 250);
  }
  img {
   cursor: pointer;
 }
+ div {
+  font-family: Roboto, Arial;
+ }

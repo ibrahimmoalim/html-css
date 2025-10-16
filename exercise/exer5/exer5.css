@@ -1,0 +1,196 @@
+body {
+  height: 3000px;
+}
+div {
+  font-family: Robot, Arial;
+}
+button {
+  cursor: pointer;
+}
+button:hover {
+  opacity: 0.7;
+}
+button:active {
+  opacity: 0.5;
+}
+
+.header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  justify-content: space-between;
+  padding-left: 80px;
+  padding-right: 60px;
+}
+.left {
+  display: flex;
+  width: 200px;
+  align-items: center;
+}
+.img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+.name {
+  font-size: 16px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+.right {
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+}
+.add {
+  background-color: rgb(71, 110, 187);
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  flex: 1;
+  height: 40px;
+}
+.message {
+  background-color: rgb(199, 199, 199);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 8px;
+  flex: 1;
+}
+
+
+.sidebar {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  background-color: rgb(50, 189, 37);
+  color: white;
+  width: 200px;
+}
+
+.page {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.container {
+  background-color: white;
+  width: 500px;
+  border-radius: 5px;
+  height: 200px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.title {
+  font-weight: bold;
+  font-size: 40px;
+}
+.text {
+  margin-top: 20px;
+  font-size: 30px;
+}
+.button {
+  margin-top: 20px;
+  font-size: 20px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.discord {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 250px;
+}
+.dark {
+  width: 80px;
+  background-color: rgb(58, 58, 58);
+  padding-left: 10px;
+  padding-top: 20px;
+}
+.img1 {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  object-fit: cover;
+}
+.img2 {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  object-fit: cover;
+  margin-top: 8px;
+}
+.img3 {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  object-fit: cover;
+  margin-top: 8px;
+}
+.grey {
+  width: 200px;
+  background-color: rgb(80, 80, 80);
+}
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+}
+.info {
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+}
+.plus {
+  color: rgb(150, 150, 150);
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 25px;
+}
+.text {
+  color: rgb(150, 150, 150);
+  font-size: 16px;
+  margin-top: 16px;
+  margin-left: 20px;
+}
+.text1 {
+  margin-bottom: 20px;
+}
+.text2 {
+  margin-bottom: 20px;
+}
+.white {
+  flex: 1;
+  background-color: white;
+}

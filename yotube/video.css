@@ -3,7 +3,7 @@
   border-radius: 12px;
   width: 100%;
 }
-.
+
 
 .grid1 {
   display: grid;
@@ -14,16 +14,14 @@
   vertical-align: top;
 }
 .supa {
-  display: inline-block;
   width: 100%;
   border-radius: 25px;
 }
 
-.video2 {
+.video1 {
   display: inline-block;
   vertical-align: top;
   margin-right: 15px;
-  height: 270px;
 }
 .par {
   margin-top: 0;
