@@ -19,6 +19,7 @@ button:active {
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: rgb(228, 228, 228);
+  z-index: 100;
 }
 .left-section {
   display: flex;
@@ -102,8 +103,25 @@ button:active {
 .apps {
   height: 24px;
 }
+.notif-container {
+  position: relative;
+}
 .notifs {
   height: 24px;
+}
+.notif-message {
+  background-color: rgb(196, 8, 8);
+  color: white;
+  border-radius: 10px;
+  position: absolute;
+  top: -3px;
+  right: -4px;
+  font-size: 10px;
+  padding-right: 6px;
+  padding-left: 6px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  cursor: pointer;
 }
 .profile {
   height: 40px;
