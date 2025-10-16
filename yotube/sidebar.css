@@ -5,4 +5,24 @@
   left: 0;
   background-color: white;
   width: 72px;
+  z-index: 200;
+  cursor: pointer;
+  padding-top: 6px;
+}
+.side-icons {
+  height: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.side-icons:hover {
+  background-color: rgb(228, 228, 228);
+}
+.side-icons img {
+  height: 25px;
+  margin-bottom: 4px;
+}
+.side-icons div {
+  font-size: 10px;
 }

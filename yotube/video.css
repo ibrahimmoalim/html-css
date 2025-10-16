@@ -1,5 +1,5 @@
 .thumb {
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   border-radius: 12px;
   width: 100%;
 }
@@ -10,7 +10,7 @@
   grid-template-columns: 50px 1fr;
 }
 .pfp1 {
-  width: 50px;
+  width: 38px;
   vertical-align: top;
 }
 .supa {
@@ -41,6 +41,7 @@
   padding-top: 3px;
   padding-bottom: 3px;
   border-radius: 4px;
+  cursor: pointer;
 }
 .par {
   margin-top: 0;
@@ -48,6 +49,7 @@
   font-weight: 500;
   line-height: 20px;
   margin-bottom: 5px;
+  cursor: pointer;
 }
 .author, .stats {
   font-size: 14px;
@@ -57,13 +59,14 @@
 }
 .author {
   margin-bottom: 5px;
+  cursor: pointer;
+}
+.author:hover {
+  color: rgb(0, 0, 0);
 }
 .video-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap:16px;
   row-gap: 40px;
-}
-.title1 {
-  margin-left: 8px;
 }
