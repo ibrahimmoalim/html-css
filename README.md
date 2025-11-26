@@ -1,1 +1,1 @@
-Documenting my study of HTML and css languages.
+Documenting my study of HTML and css.
