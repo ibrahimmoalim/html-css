@@ -7,6 +7,6 @@ It is not affiliated with, endorsed by, or sponsored by YouTube or Google LLC.
 All trademarks and copyrighted materials belong to their respective owners.
 
 Learned mainly from **YouTube**:  
-[*HTML & CSS Full Course - Beginner to Pro*](https://youtu.be/G3e-cpL7ofc?list=PLnzAAMsaASAXc4oGjhKX-aJLk2JlzmTuc)
+[*HTML & CSS Full Course - Beginner to Pro*](https://www.youtube.com/watch?v=G3e-cpL7ofc&t=181s)
 
 [**You can view the youtube homepage project here**](https://ibrahimmoalim.github.io/html-css/theTube/)
